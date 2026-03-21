@@ -1,0 +1,165 @@
+{
+  "siteName": "Logo của bạn.",
+  "navLinks": [
+    { "href": "#home", "label": "Trang chủ" },
+    { "href": "#journey", "label": "Hành trình" },
+    { "href": "#work-history", "label": "Kinh nghiệm" },
+    { "href": "#education", "label": "Học vấn" },
+    { "href": "#skills-tools", "label": "Kỹ năng & Công cụ" }
+  ],
+  "hero": {
+    "badges": ["Thiết kế Sản phẩm", "Thiết kế UI/UX", "Thiết kế Web"],
+    "name": "Tên của bạn",
+    "bio": "Dù bạn muốn thảo luận về dự án mới, tìm lời khuyên hay hợp tác, tôi luôn sẵn sàng kết nối và khám phá những cơ hội mới.",
+    "ctaText": "Liên hệ",
+    "recommendation": {
+      "name": "Tên người giới thiệu",
+      "text": "Được giới thiệu bởi..."
+    }
+  },
+  "journey": {
+    "title": "Hành trình của tôi",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=640&h=400&fit=crop&q=80",
+    "content": "Với hơn 8 năm kinh nghiệm trong vai trò Product Designer, tôi đã định hình các sản phẩm kỹ thuật số cho cả startup và doanh nghiệp lớn. Sự nghiệp của tôi bắt đầu từ thiết kế đồ họa, nơi tôi phát triển con mắt thẩm mỹ và tư duy thiết kế lấy người dùng làm trung tâm.\n\nKhi chuyển sang thiết kế sản phẩm, tôi tập trung vào việc tạo ra trải nghiệm người dùng liền mạch, thúc đẩy sự tương tác và tăng trưởng kinh doanh. Tôi đã làm việc trong nhiều lĩnh vực như FinTech, thương mại điện tử, foodtech và SaaS, am hiểu thiết kế cho các nhu cầu người dùng khác nhau trong khi đảm bảo mục tiêu kinh doanh.\n\nTừ MVP đến các nền tảng vận hành đầy đủ, tôi áp dụng phương pháp dựa trên dữ liệu và lấy người dùng làm trung tâm cho mọi dự án. Tôi đã dẫn dắt các design system, phát triển chiến lược sản phẩm và cộng tác với các đội nhóm để biến ý tưởng thành hiện thực.\n\nTrong những năm gần đây, tôi đã giúp các startup đạt được các cột mốc quan trọng, từ xây dựng MVP đến ra mắt sản phẩm tạo ra doanh thu hàng triệu và thu hút hàng nghìn người dùng. Tôi đam mê tạo ra những trải nghiệm kỹ thuật số có tác động tích cực."
+  },
+  "workHistory": [
+    {
+      "id": "1",
+      "company": "Tên công ty",
+      "role": "Senior Product Designer",
+      "period": "Tháng 3/2024 - Hiện tại",
+      "description": "Tôi đóng vai trò quan trọng trong việc định hình trải nghiệm thanh toán sản phẩm và phát triển ứng dụng EPOS di động.",
+      "achievements": [
+        "Thiết kế lại quy trình thanh toán, cải thiện tỷ lệ chuyển đổi 23%",
+        "Xây dựng và duy trì design system với hơn 120 component tái sử dụng",
+        "Tích hợp 5 plugin bên thứ ba liền mạch vào nền tảng",
+        "Hợp tác với kỹ sư để triển khai tính năng nhanh hơn 30%"
+      ],
+      "tags": ["Fintech", "Toàn thời gian", "Dubai, UAE"],
+      "icon": "briefcase"
+    },
+    {
+      "id": "2",
+      "company": "Tên công ty",
+      "role": "Senior Product Designer",
+      "period": "Tháng 3/2022 - Tháng 2/2024",
+      "description": "Dẫn dắt thiết kế sản phẩm từ ý tưởng đến ra mắt, thúc đẩy tương tác người dùng và tăng trưởng kinh doanh trên nhiều nền tảng.",
+      "achievements": [
+        "Thiết kế MVP thu hút hơn 10K người dùng trong tháng đầu tiên",
+        "Phát triển khung nghiên cứu người dùng được áp dụng toàn công ty",
+        "Tạo quy trình thiết kế dựa trên dữ liệu giảm 40% chu kỳ lặp",
+        "Hướng dẫn 3 designer mới và xây dựng văn hóa design review"
+      ],
+      "tags": ["Thương mại điện tử", "Toàn thời gian", "TP. Hồ Chí Minh, Việt Nam"],
+      "icon": "briefcase"
+    }
+  ],
+  "educationHeaderImages": [
+    "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=200&h=150&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=200&h=150&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&h=150&fit=crop&q=80"
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Đại học Quốc tế",
+      "degree": "Thiết kế",
+      "period": "Tháng 10/2017 - Tháng 2/2020",
+      "description": "Hoàn thành bằng Cử nhân Thiết kế Đồ họa và nghệ thuật ứng dụng tại đại học quốc tế.",
+      "icon": "graduation",
+      "image": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=480&h=320&fit=crop&q=80"
+    },
+    {
+      "id": "2",
+      "institution": "Google Design",
+      "degree": "Thiết kế",
+      "period": "Tháng 10/2017 - Tháng 2/2020",
+      "description": "Hoàn thành bằng Cử nhân Thiết kế Đồ họa và nghệ thuật ứng dụng tại đại học quốc tế.",
+      "icon": "graduation",
+      "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=480&h=320&fit=crop&q=80"
+    }
+  ],
+  "skills": {
+    "product": [
+      "Design System",
+      "Lean UX",
+      "Agile",
+      "Phân tích Dữ liệu",
+      "Startup",
+      "Thiết kế Dựa trên Dữ liệu",
+      "Thiết kế Lấy người dùng làm trung tâm",
+      "UI Kits"
+    ],
+    "uxDesign": [
+      "Phỏng vấn Người dùng",
+      "Khảo sát",
+      "Personas",
+      "Đánh giá Đối thủ",
+      "Bản đồ Hành trình Người dùng",
+      "Bản đồ Cảm xúc",
+      "User Stories",
+      "Kiểm thử Khả năng sử dụng",
+      "A/B Testing",
+      "Sơ đồ Tư duy",
+      "Luồng Người dùng",
+      "Kiến trúc Thông tin"
+    ]
+  },
+  "toolbox": {
+    "title": "Công cụ Thiết kế & Phát triển",
+    "subtitle": "Bộ công cụ toàn diện mà tôi sử dụng để thiết kế, tạo prototype và hiện thực hóa ý tưởng",
+    "tools": [
+      { "name": "Figma", "icon": "figma" },
+      { "name": "Framer", "icon": "framer" },
+      { "name": "Webflow", "icon": "webflow" },
+      { "name": "Shopify", "icon": "shopify" },
+      { "name": "Notion", "icon": "notion" },
+      { "name": "Adobe XD", "icon": "xd" },
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "React", "icon": "react" },
+      { "name": "Tailwind", "icon": "tailwind" },
+      { "name": "Next.js", "icon": "vscode" }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Xem những gì chúng tôi đang làm gần đây",
+    "viewMoreText": "Xem thêm",
+    "projects": [
+      {
+        "id": "1",
+        "title": "KASO - Nền tảng YC Combinator",
+        "description": "Kaso YC (trước đây là ElKaso) là nền tảng B2B trực tuyến hỗ trợ xử lý đơn hàng và giao tiếp giữa nhà hàng và nhà cung cấp.",
+        "tags": ["KASO", "Foodtech", "YC Combinator"],
+        "image": "/placeholder-project.jpg"
+      },
+      {
+        "id": "2",
+        "title": "KASO - Nền tảng YC Combinator",
+        "description": "Kaso YC (trước đây là ElKaso) là nền tảng B2B trực tuyến hỗ trợ xử lý đơn hàng và giao tiếp giữa nhà hàng và nhà cung cấp.",
+        "tags": ["KASO", "Foodtech", "YC Combinator"],
+        "image": "/placeholder-project.jpg"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Kết nối với tôi",
+    "description": "Bạn quan tâm đến thiết kế, muốn chia sẻ ý tưởng hay khám phá đổi mới trong thiết kế sản phẩm? Hãy liên hệ—chúng ta cùng trò chuyện.",
+    "ctaText": "Liên hệ",
+    "copyright": "© 2024 Gridbox. Đã đăng ký bản quyền."
+  },
+  "common": {
+    "switchToEnglish": "Switch to English",
+    "switchToVietnamese": "Chuyển sang Tiếng Việt",
+    "getInTouch": "Liên hệ ngay",
+    "sections": {
+      "workHistory": "Kinh nghiệm làm việc",
+      "education": "Học vấn & Khóa học",
+      "skillsTools": "Kỹ năng & Công cụ",
+      "skills": "Kỹ năng",
+      "tools": "Công cụ",
+      "product": "Sản phẩm",
+      "uxDesign": "UX Design"
+    }
+  }
+}
