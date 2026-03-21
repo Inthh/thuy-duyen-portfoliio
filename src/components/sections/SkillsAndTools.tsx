@@ -43,7 +43,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 type Tab = "skills" | "tools";
 
 export function SkillsAndTools() {
-  const { translations } = useLocale();
+  const { locale, translations } = useLocale();
   const { skills, toolbox } = translations;
   const [activeTab, setActiveTab] = useState<Tab>("skills");
 
@@ -111,8 +111,9 @@ export function SkillsAndTools() {
                 {translations.common.sections.skills}
               </h3>
 
-              <div className="space-y-6">
+              <div className="space-y-6" key={locale}>
                 <motion.div
+                  key={`${locale}-product`}
                   initial="initial"
                   whileInView="whileInView"
                   viewport={{ once: true }}
@@ -141,6 +142,7 @@ export function SkillsAndTools() {
                 </motion.div>
 
                 <motion.div
+                  key={`${locale}-ux`}
                   initial="initial"
                   whileInView="whileInView"
                   viewport={{ once: true }}
