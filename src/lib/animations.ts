@@ -78,7 +78,7 @@ export const floatUp = {
 
 /** Section reveal when in viewport */
 export const sectionReveal = {
-  initial: { opacity: 0, y: 48 },
+  initial: { opacity: 0, y: 0 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, margin: "-80px", amount: 0.2 },
   transition: springSmooth,
