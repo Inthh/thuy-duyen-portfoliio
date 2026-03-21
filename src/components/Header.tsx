@@ -26,11 +26,7 @@ export function Header() {
       initial={fadeInDown.initial}
       animate={fadeInDown.animate}
       transition={springSmooth}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-transparent backdrop-blur-xl shadow-lg shadow-[var(--color-shadow)]"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300`}
     >
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-16 md:h-20">
@@ -165,7 +161,7 @@ export function Header() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            className="fixed inset-0 z-40 md:hidden pt-24 pb-8 px-6 bg-[var(--color-bg)]/95 backdrop-blur-xl"
+            className="fixed inset-0 z-40 md:hidden pt-24 pb-8 px-6 bg-(--color-bg)/95 backdrop-blur-xl"
             onClick={() => setMobileMenuOpen(false)}
           >
             <motion.nav
