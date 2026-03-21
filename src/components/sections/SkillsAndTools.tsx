@@ -12,7 +12,11 @@ import {
   SiReact,
   SiTailwindcss,
   SiNextdotjs,
+  SiFacebook,
+  SiCanva,
 } from "react-icons/si";
+import { CapCutIcon } from "@/components/icons/CapCutIcon";
+import { ShopeeIcon } from "@/components/icons/ShopeeIcon";
 import { SectionWrapper } from "./SectionWrapper";
 import { Badge } from "../ui/Badge";
 import { useLocale } from "@/components/LocaleProvider";
@@ -29,6 +33,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   framer: SiFramer,
   webflow: SiWebflow,
   shopify: SiShopify,
+  shopee: ShopeeIcon,
   notion: SiNotion,
   xd: SiFigma,
   illustrator: SiFigma,
@@ -38,6 +43,9 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   typescript: SiTypescript,
   react: SiReact,
   tailwind: SiTailwindcss,
+  facebook: SiFacebook,
+  canva: SiCanva,
+  capcut: CapCutIcon,
 };
 
 type Tab = "skills" | "tools";
@@ -112,63 +120,43 @@ export function SkillsAndTools() {
               </h3>
 
               <div className="space-y-6" key={locale}>
-                <motion.div
-                  key={`${locale}-product`}
-                  initial="initial"
-                  whileInView="whileInView"
-                  viewport={{ once: true }}
-                  variants={{
-                    initial: {},
-                    whileInView: {
-                      transition: { staggerChildren: 0.04, delayChildren: 0.1 },
-                    },
-                  }}
-                  className="space-y-3"
-                >
-                  <h4 className="text-sm font-semibold text-[var(--color-text-muted)]">
-                    {translations.common.sections.product}
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {skills.product.map((skill) => (
-                      <motion.div
-                        key={skill}
-                        variants={staggerChildScale}
-                        viewport={{ once: true }}
-                      >
-                        <Badge>{skill}</Badge>
-                      </motion.div>
-                    ))}
-                  </div>
-                </motion.div>
-
-                <motion.div
-                  key={`${locale}-ux`}
-                  initial="initial"
-                  whileInView="whileInView"
-                  viewport={{ once: true }}
-                  variants={{
-                    initial: {},
-                    whileInView: {
-                      transition: { staggerChildren: 0.04, delayChildren: 0.1 },
-                    },
-                  }}
-                  className="space-y-3"
-                >
-                  <h4 className="text-sm font-semibold text-[var(--color-text-muted)]">
-                    {translations.common.sections.uxDesign}
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {skills.uxDesign.map((skill) => (
-                      <motion.div
-                        key={skill}
-                        variants={staggerChildScale}
-                        viewport={{ once: true }}
-                      >
-                        <Badge>{skill}</Badge>
-                      </motion.div>
-                    ))}
-                  </div>
-                </motion.div>
+                {Object.entries(skills).map(([categoryKey, skillList]) => {
+                  const sectionLabel =
+                    translations.common.sections[categoryKey] ?? categoryKey;
+                  return (
+                    <motion.div
+                      key={`${locale}-${categoryKey}`}
+                      initial="initial"
+                      whileInView="whileInView"
+                      viewport={{ once: true }}
+                      variants={{
+                        initial: {},
+                        whileInView: {
+                          transition: {
+                            staggerChildren: 0.04,
+                            delayChildren: 0.1,
+                          },
+                        },
+                      }}
+                      className="space-y-3"
+                    >
+                      <h4 className="text-sm font-semibold text-[var(--color-text-muted)]">
+                        {sectionLabel}
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {skillList.map((skill) => (
+                          <motion.div
+                            key={skill}
+                            variants={staggerChildScale}
+                            viewport={{ once: true }}
+                          >
+                            <Badge>{skill}</Badge>
+                          </motion.div>
+                        ))}
+                      </div>
+                    </motion.div>
+                  );
+                })}
               </div>
             </div>
           </motion.div>

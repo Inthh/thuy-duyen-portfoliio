@@ -1,5 +1,5 @@
 {
-  "siteName": "Logo của bạn.",
+  "siteName": "TTTD Portfolio",
   "navLinks": [
     { "href": "#home", "label": "Trang chủ" },
     { "href": "#journey", "label": "Hành trình" },
@@ -8,49 +8,53 @@
     { "href": "#skills-tools", "label": "Kỹ năng & Công cụ" }
   ],
   "hero": {
-    "badges": ["Thiết kế Sản phẩm", "Thiết kế UI/UX", "Thiết kế Web"],
-    "name": "Tên của bạn",
-    "bio": "Dù bạn muốn thảo luận về dự án mới, tìm lời khuyên hay hợp tác, tôi luôn sẵn sàng kết nối và khám phá những cơ hội mới.",
-    "ctaText": "Liên hệ",
+    "badges": ["Kinh doanh", "Thương mại điện tử", "Bán hàng online"],
+    "name": "Thái Thị Thuỳ Duyên",
+    "position": "Sales Executive",
+    "location": "Tân Phú, TP. Hồ Chí Minh",
+    "email": "duyenthaithithuy55@gmail.com",
+    "phone": "0352297652",
+    "dob": "28/06/2005",
+    "bio": "Sinh viên năm ba ngành Thương mại tại Đại học Văn Hiến, có kinh nghiệm thực tế trong kinh doanh online, thương mại điện tử và bán hàng qua mạng xã hội. Nền tảng vững trong vận hành shop thời trang online, am hiểu nghiên cứu thị trường, phân tích xu hướng và tương tác khách hàng. Thành thạo tạo nội dung, livestream bán hàng và quản lý sàn thương mại điện tử.",
+    "ctaText": "Liên hệ ngay",
     "recommendation": {
-      "name": "Tên người giới thiệu",
-      "text": "Được giới thiệu bởi..."
+      "text": "Kết nối và trao đổi cơ hội hợp tác",
+      "name": "Liên hệ và khám phá tại"
     }
   },
   "journey": {
     "title": "Hành trình của tôi",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=640&h=400&fit=crop&q=80",
-    "content": "Với hơn 8 năm kinh nghiệm trong vai trò Product Designer, tôi đã định hình các sản phẩm kỹ thuật số cho cả startup và doanh nghiệp lớn. Sự nghiệp của tôi bắt đầu từ thiết kế đồ họa, nơi tôi phát triển con mắt thẩm mỹ và tư duy thiết kế lấy người dùng làm trung tâm.\n\nKhi chuyển sang thiết kế sản phẩm, tôi tập trung vào việc tạo ra trải nghiệm người dùng liền mạch, thúc đẩy sự tương tác và tăng trưởng kinh doanh. Tôi đã làm việc trong nhiều lĩnh vực như FinTech, thương mại điện tử, foodtech và SaaS, am hiểu thiết kế cho các nhu cầu người dùng khác nhau trong khi đảm bảo mục tiêu kinh doanh.\n\nTừ MVP đến các nền tảng vận hành đầy đủ, tôi áp dụng phương pháp dựa trên dữ liệu và lấy người dùng làm trung tâm cho mọi dự án. Tôi đã dẫn dắt các design system, phát triển chiến lược sản phẩm và cộng tác với các đội nhóm để biến ý tưởng thành hiện thực.\n\nTrong những năm gần đây, tôi đã giúp các startup đạt được các cột mốc quan trọng, từ xây dựng MVP đến ra mắt sản phẩm tạo ra doanh thu hàng triệu và thu hút hàng nghìn người dùng. Tôi đam mê tạo ra những trải nghiệm kỹ thuật số có tác động tích cực."
+    "content": "Sinh viên năm ba ngành Thương mại tại Đại học Văn Hiến, có kinh nghiệm thực tế trong kinh doanh online, thương mại điện tử và bán hàng qua mạng xã hội.\n\nTôi có nền tảng vững trong vận hành shop thời trang online, am hiểu nghiên cứu thị trường, phân tích xu hướng và tương tác khách hàng. Thành thạo tạo nội dung, livestream bán hàng và quản lý sàn thương mại điện tử, tôi đã xây dựng và duy trì mối quan hệ khách hàng thông qua giao tiếp trực tiếp, góp phần tăng tỷ lệ mua lại và ổn định doanh số.\n\nKinh nghiệm của tôi bao quát toàn bộ quy trình bán hàng—từ tìm nguồn hàng, tư vấn khách đến chốt đơn và giao hàng. Tôi tiến hành nghiên cứu thị trường và phân tích xu hướng để chọn sản phẩm phù hợp nhu cầu khách hàng, triển khai chiến dịch khuyến mãi và tận dụng livestream bán hàng để tăng tương tác và thúc đẩy doanh số."
   },
   "workHistory": [
     {
       "id": "1",
-      "company": "Tên công ty",
-      "role": "Senior Product Designer",
-      "period": "Tháng 3/2024 - Hiện tại",
-      "description": "Tôi đóng vai trò quan trọng trong việc định hình trải nghiệm thanh toán sản phẩm và phát triển ứng dụng EPOS di động.",
+      "company": "Kinh doanh thời trang",
+      "role": "Chủ shop Online",
+      "period": "2017 – 2023",
+      "description": "Vận hành shop thời trang online trên mạng xã hội và Shopee, đạt doanh thu trung bình ~15 triệu đồng/tháng và lợi nhuận hơn 150 triệu đồng/năm.",
       "achievements": [
-        "Thiết kế lại quy trình thanh toán, cải thiện tỷ lệ chuyển đổi 23%",
-        "Xây dựng và duy trì design system với hơn 120 component tái sử dụng",
-        "Tích hợp 5 plugin bên thứ ba liền mạch vào nền tảng",
-        "Hợp tác với kỹ sư để triển khai tính năng nhanh hơn 30%"
+        "Quản lý toàn bộ quy trình bán hàng: tìm nguồn hàng, tư vấn khách, chốt đơn và giao hàng",
+        "Xây dựng mối quan hệ khách hàng bền vững qua giao tiếp trực tiếp, tăng tỷ lệ mua lại và ổn định doanh số",
+        "Nghiên cứu thị trường và phân tích xu hướng để chọn sản phẩm đáp ứng nhu cầu khách hàng",
+        "Triển khai chiến dịch khuyến mãi và livestream bán hàng (hơn 4 năm kinh nghiệm) để tăng tương tác và thúc đẩy doanh số",
+        "Tạo nội dung mạng xã hội và video sản phẩm bằng CapCut để tăng độ nhận diện và thu hút khách hàng"
       ],
-      "tags": ["Fintech", "Toàn thời gian", "Dubai, UAE"],
+      "tags": ["Thương mại điện tử", "Shopee", "TP. Hồ Chí Minh, Việt Nam"],
       "icon": "briefcase"
     },
     {
       "id": "2",
-      "company": "Tên công ty",
-      "role": "Senior Product Designer",
-      "period": "Tháng 3/2022 - Tháng 2/2024",
-      "description": "Dẫn dắt thiết kế sản phẩm từ ý tưởng đến ra mắt, thúc đẩy tương tác người dùng và tăng trưởng kinh doanh trên nhiều nền tảng.",
+      "company": "Cửa hàng cây cảnh",
+      "role": "Trợ lý bán hàng (Part-time)",
+      "period": "2023 - 12/2025",
+      "description": "Tư vấn khách hàng tại cửa hàng và hỗ trợ lựa chọn sản phẩm.",
       "achievements": [
-        "Thiết kế MVP thu hút hơn 10K người dùng trong tháng đầu tiên",
-        "Phát triển khung nghiên cứu người dùng được áp dụng toàn công ty",
-        "Tạo quy trình thiết kế dựa trên dữ liệu giảm 40% chu kỳ lặp",
-        "Hướng dẫn 3 designer mới và xây dựng văn hóa design review"
+        "Xử lý thanh toán, đơn hàng và lập hóa đơn VAT",
+        "Hỗ trợ chụp ảnh sản phẩm, quay video và vận hành cửa hàng hàng ngày"
       ],
-      "tags": ["Thương mại điện tử", "Toàn thời gian", "TP. Hồ Chí Minh, Việt Nam"],
+      "tags": ["Bán lẻ", "Part-time", "TP. Hồ Chí Minh, Việt Nam"],
       "icon": "briefcase"
     }
   ],
@@ -62,63 +66,49 @@
   "education": [
     {
       "id": "1",
-      "institution": "Đại học Quốc tế",
-      "degree": "Thiết kế",
-      "period": "Tháng 10/2017 - Tháng 2/2020",
-      "description": "Hoàn thành bằng Cử nhân Thiết kế Đồ họa và nghệ thuật ứng dụng tại đại học quốc tế.",
+      "institution": "Đại học Văn Hiến (VHU)",
+      "degree": "Cử nhân Thương mại",
+      "period": "2023 – Hiện tại (Dự kiến tốt nghiệp: 2027)",
+      "description": "Sinh viên năm ba ngành Thương mại, có kinh nghiệm thực tế trong kinh doanh online, thương mại điện tử và bán hàng qua mạng xã hội.",
       "icon": "graduation",
-      "image": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=480&h=320&fit=crop&q=80"
-    },
-    {
-      "id": "2",
-      "institution": "Google Design",
-      "degree": "Thiết kế",
-      "period": "Tháng 10/2017 - Tháng 2/2020",
-      "description": "Hoàn thành bằng Cử nhân Thiết kế Đồ họa và nghệ thuật ứng dụng tại đại học quốc tế.",
-      "icon": "graduation",
-      "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=480&h=320&fit=crop&q=80"
+      "image": "/dai_hoc_van_hien.png"
     }
   ],
   "skills": {
-    "product": [
-      "Hệ thống Thiết kế",
-      "UX Tinh gọn",
-      "Phương pháp Agile",
-      "Phân tích Dữ liệu",
-      "Khởi nghiệp",
-      "Thiết kế Dựa trên Dữ liệu",
-      "Thiết kế Lấy người dùng làm trung tâm",
-      "Bộ công cụ UI"
+    "digitalTools": [
+      "CapCut",
+      "Shopee",
+      "Facebook",
+      "Canva"
     ],
-    "uxDesign": [
-      "Phỏng vấn Người dùng",
-      "Khảo sát",
-      "Hồ sơ Người dùng",
-      "Đánh giá Đối thủ",
-      "Bản đồ Hành trình Người dùng",
-      "Bản đồ Cảm xúc",
-      "Câu chuyện Người dùng",
-      "Kiểm thử Khả năng sử dụng",
-      "Thử nghiệm A/B",
-      "Sơ đồ Tư duy",
-      "Luồng Người dùng",
-      "Kiến trúc Thông tin"
+    "eCommerce": [
+      "Quản lý Shop Shopee",
+      "Đăng sản phẩm",
+      "Livestream bán hàng",
+      "Bán hàng online"
+    ],
+    "marketing": [
+      "Tạo nội dung",
+      "Chỉnh sửa video"
+    ],
+    "languages": [
+      "Tiếng Anh (Giao tiếp – đang ôn thi IELTS)",
+      "Tiếng Trung (Giao tiếp cơ bản)"
+    ],
+    "analyticalSkills": [
+      "Nghiên cứu thị trường",
+      "Phân tích xu hướng",
+      "Phân tích khách hàng"
     ]
   },
   "toolbox": {
-    "title": "Công cụ Thiết kế & Phát triển",
-    "subtitle": "Bộ công cụ toàn diện mà tôi sử dụng để thiết kế, tạo prototype và hiện thực hóa ý tưởng",
+    "title": "Công cụ & Nền tảng số",
+    "subtitle": "Công cụ và nền tảng tôi sử dụng cho thương mại điện tử, tạo nội dung và bán hàng",
     "tools": [
-      { "name": "Figma", "icon": "figma" },
-      { "name": "Framer", "icon": "framer" },
-      { "name": "Webflow", "icon": "webflow" },
-      { "name": "Shopify", "icon": "shopify" },
-      { "name": "Notion", "icon": "notion" },
-      { "name": "Adobe XD", "icon": "xd" },
-      { "name": "TypeScript", "icon": "typescript" },
-      { "name": "React", "icon": "react" },
-      { "name": "Tailwind", "icon": "tailwind" },
-      { "name": "Next.js", "icon": "vscode" }
+      { "name": "CapCut", "icon": "capcut" },
+      { "name": "Shopee", "icon": "shopee" },
+      { "name": "Facebook", "icon": "facebook" },
+      { "name": "Canva", "icon": "canva" }
     ]
   },
   "portfolio": {
@@ -144,9 +134,9 @@
   },
   "footer": {
     "title": "Kết nối với tôi",
-    "description": "Bạn quan tâm đến thiết kế, muốn chia sẻ ý tưởng hay khám phá đổi mới trong thiết kế sản phẩm? Hãy liên hệ—chúng ta cùng trò chuyện.",
+    "description": "Bạn quan tâm đến cơ hội hợp tác kinh doanh, bán hàng hay thương mại điện tử? Hãy liên hệ—chúng ta cùng trò chuyện.",
     "ctaText": "Liên hệ",
-    "copyright": "© 2024 Gridbox. Đã đăng ký bản quyền."
+    "copyright": "© 2025 Thái Thị Thuỳ Duyên. Đã đăng ký bản quyền."
   },
   "common": {
     "switchToEnglish": "Switch to English",
@@ -154,12 +144,15 @@
     "getInTouch": "Liên hệ ngay",
     "sections": {
       "workHistory": "Kinh nghiệm làm việc",
-      "education": "Học vấn & Khóa học",
+      "education": "Học vấn",
       "skillsTools": "Kỹ năng & Công cụ",
       "skills": "Kỹ năng",
       "tools": "Công cụ",
-      "product": "Sản phẩm",
-      "uxDesign": "UX Design"
+      "digitalTools": "Công cụ số",
+      "eCommerce": "Thương mại điện tử",
+      "marketing": "Marketing",
+      "languages": "Ngoại ngữ",
+      "analyticalSkills": "Phân tích"
     }
   }
 }

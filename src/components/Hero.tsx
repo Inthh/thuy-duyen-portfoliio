@@ -81,6 +81,7 @@ export function Hero() {
     >
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Floating recommendation card - left */}
+        {hero.recommendation.name || hero.recommendation.text ? (
         <motion.div
           initial={{ opacity: 0, x: -48 }}
           animate={{ opacity: 1, x: 0 }}
@@ -95,13 +96,14 @@ export function Hero() {
             <SiZalo className="w-6 h-6 text-[var(--color-text)]" />
           </motion.div>
           <div>
-            <p className="text-xs text-[var(--color-text-muted)]">{hero.recommendation.text}</p>
+            {/* <p className="text-xs text-[var(--color-text-muted)]">{hero.recommendation.text}</p> */}
             <p className="text-sm font-semibold text-[var(--color-text)]">
               {hero.recommendation.name}
             </p>
           </div>
           <HiArrowRight className="w-4 h-4 text-[var(--color-text-muted)] shrink-0" />
         </motion.div>
+        ) : null}
 
         {/* Avatar */}
         <motion.div
@@ -160,10 +162,22 @@ export function Hero() {
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ ...springSmooth, delay: 0.4 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[var(--color-text)] text-center mb-6 tracking-tight min-h-[1.2em] flex items-center justify-center"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[var(--color-text)] text-center mb-2 tracking-tight min-h-[1.2em] flex items-center justify-center"
         >
           <TypingTitle text={hero.name} />
         </motion.h1>
+
+        {/* Position & Location */}
+        {(hero.position || hero.location) && (
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ...springSmooth, delay: 0.45 }}
+            className="text-center text-base md:text-lg text-[var(--color-text-muted)] mb-6 font-semibold"
+          >
+            {[hero.position, hero.location].filter(Boolean).join(" • ")}
+          </motion.p>
+        )}
 
         {/* Bio */}
         <motion.p
@@ -193,6 +207,7 @@ export function Hero() {
         </motion.div>
 
         {/* Floating recommendation card - right */}
+        {hero.recommendation.name || hero.recommendation.text ? (
         <motion.div
           initial={{ opacity: 0, x: 48 }}
           animate={{ opacity: 1, x: 0 }}
@@ -207,13 +222,14 @@ export function Hero() {
             <FaLinkedinIn className="w-6 h-6 text-[var(--color-text)]" />
           </motion.div>
           <div>
-            <p className="text-xs text-[var(--color-text-muted)]">{hero.recommendation.text}</p>
+            {/* <p className="text-xs text-[var(--color-text-muted)]">{hero.recommendation.text}</p> */}
             <p className="text-sm font-semibold text-[var(--color-text)]">
               {hero.recommendation.name}
             </p>
           </div>
           <HiArrowRight className="w-4 h-4 text-[var(--color-text-muted)] flex-shrink-0" />
         </motion.div>
+        ) : null}
       </div>
     </section>
   );

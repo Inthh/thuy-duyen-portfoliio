@@ -1,5 +1,5 @@
 {
-  "siteName": "Your Logo.",
+  "siteName": "TTTD Portfolio",
   "navLinks": [
     { "href": "#home", "label": "Home" },
     { "href": "#journey", "label": "My Journey" },
@@ -8,49 +8,53 @@
     { "href": "#skills-tools", "label": "Skills & Tools" }
   ],
   "hero": {
-    "badges": ["Product Design", "UI/UX Design", "Web Design"],
-    "name": "Your Name Here",
-    "bio": "Whether you're looking to discuss a new project, seek advice, or collaborate, I'm always excited to connect and explore new possibilities.",
+    "badges": ["Sales", "E-Commerce", "Online Business"],
+    "name": "Thái Thị Thuỳ Duyên",
+    "position": "Sales Executive",
+    "location": "Tân Phú, Ho Chi Minh City",
+    "email": "duyenthaithithuy55@gmail.com",
+    "phone": "0352297652",
+    "dob": "28/06/2005",
+    "bio": "Third-year student majoring in Trade Business at Van Hien University with hands-on experience in online business, e-commerce, and social media sales. Possessing a strong background in operating an online fashion business, with practical experience in market research, trend analysis, and customer engagement. Skilled in content creation, livestream selling, and managing e-commerce platforms.",
     "ctaText": "Contact Me",
     "recommendation": {
-      "name": "Your Name",
-      "text": "Recommended by..."
+      "text": "Let's connect and explore opportunities",
+      "name": "Connect and explore"
     }
   },
   "journey": {
     "title": "My Journey",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=640&h=400&fit=crop&q=80",
-    "content": "With over 8 years of experience as a Product Designer, I've shaped digital products for both startups and established companies. My career began in graphic design, where I developed a strong eye for aesthetics and user-centered design.\n\nAs I transitioned into product design, I focused on creating seamless user experiences that drive engagement and business growth. I've worked across industries like FinTech, eCommerce, foodtech, and SaaS, gaining a deep understanding of designing for different user needs while ensuring business goals are met.\n\nFrom MVPs to fully operational platforms, I take a data-driven and user-centered approach to every project. I've led design systems, developed product strategies, and collaborated with teams to bring ideas from concept to reality.\n\nIn recent years, I've helped startups achieve milestones, from building MVPs to launching products that generated millions in revenue and attracted thousands of users. I'm passionate about creating impactful digital experiences that drive success."
+    "content": "Third-year student majoring in Trade Business at Van Hien University with hands-on experience in online business, e-commerce, and social media sales.\n\nI possess a strong background in operating an online fashion business, with practical experience in market research, trend analysis, and customer engagement. Skilled in content creation, livestream selling, and managing e-commerce platforms, I have built and sustained customer relationships through direct communication, contributing to repeat purchases and stable sales performance.\n\nMy experience spans end-to-end sales processes—from product sourcing and customer consultation to sales closing and order fulfillment. I conduct market research and trend analysis to select products aligned with customer demand, execute promotional campaigns, and leverage livestream selling to increase engagement and drive sales."
   },
   "workHistory": [
     {
       "id": "1",
-      "company": "Company Name",
-      "role": "Senior Product Designer",
-      "period": "March 2024 - Present",
-      "description": "I play a pivotal role in shaping the product checkout experience and developing the EPOS mobile app.",
+      "company": "Fashion Business",
+      "role": "Online Business Owner",
+      "period": "2017 – Present",
+      "description": "Operated an online fashion business across social media and Shopee, achieving an average monthly revenue of ~15 million VND and generating over 150 million VND in annual profit.",
       "achievements": [
-        "Redesigned checkout flow, improving conversion rate by 23%",
-        "Built and maintained a design system with 120+ reusable components",
-        "Integrated 5 third-party plugins seamlessly into the platform",
-        "Collaborated with engineering to ship features 30% faster"
+        "Managed end-to-end sales process, including product sourcing, customer consultation, sales closing, and order fulfillment",
+        "Built strong customer relationships through direct communication, contributing to repeat purchases and stable sales performance",
+        "Conducted market research and trend analysis to select products aligned with customer demand",
+        "Executed promotional campaigns and livestream selling (4+ years of experience) to increase engagement and drive sales",
+        "Created social media content and product videos using CapCut to enhance product visibility and attract customers"
       ],
-      "tags": ["Fintech", "Full Time", "Dubai, United Arab Emirates"],
+      "tags": ["E-Commerce", "Shopee", "Ho Chi Minh City, Vietnam"],
       "icon": "briefcase"
     },
     {
       "id": "2",
-      "company": "Company Name",
-      "role": "Senior Product Designer",
-      "period": "March 2022 - Feb 2024",
-      "description": "Led product design from concept to launch, driving user engagement and business growth across multiple platforms.",
+      "company": "Plant Store",
+      "role": "Sales Assistant (Part-time)",
+      "period": "2023",
+      "description": "Provided in-store customer consultation and supported product selection.",
       "achievements": [
-        "Designed MVP that attracted 10K+ users in the first month",
-        "Developed user research framework adopted company-wide",
-        "Created data-driven design process reducing iteration cycles by 40%",
-        "Mentored 3 junior designers and established design review culture"
+        "Handled billing, order processing, and VAT invoice preparation",
+        "Assisted in product photography, video creation, and daily store operations"
       ],
-      "tags": ["eCommerce", "Full Time", "Ho Chi Minh City, Vietnam"],
+      "tags": ["Retail", "Part-time", "Ho Chi Minh City, Vietnam"],
       "icon": "briefcase"
     }
   ],
@@ -62,63 +66,49 @@
   "education": [
     {
       "id": "1",
-      "institution": "International University",
-      "degree": "Design",
-      "period": "Oct 2017 - Feb 2020",
-      "description": "Completed a BA Certificate in Graphic Design and applied arts at international university.",
+      "institution": "Van Hien University (VHU)",
+      "degree": "Bachelor's Degree in Trade Business",
+      "period": "2023 – Present (Expected Graduation: 2027)",
+      "description": "Third-year student majoring in Trade Business with hands-on experience in online business, e-commerce, and social media sales.",
       "icon": "graduation",
-      "image": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=480&h=320&fit=crop&q=80"
-    },
-    {
-      "id": "2",
-      "institution": "Google Design",
-      "degree": "Design",
-      "period": "Oct 2017 - Feb 2020",
-      "description": "Completed a BA Certificate in Graphic Design and applied arts at international university.",
-      "icon": "graduation",
-      "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=480&h=320&fit=crop&q=80"
+      "image": "/dai_hoc_van_hien.png"
     }
   ],
   "skills": {
-    "product": [
-      "Design System",
-      "Lean UX",
-      "Agile Methodology",
-      "Data Analysis",
-      "Startups",
-      "Data-Driven Design",
-      "User Centered Design",
-      "UI Kits"
+    "digitalTools": [
+      "CapCut",
+      "Shopee",
+      "Facebook",
+      "Canva"
     ],
-    "uxDesign": [
-      "User Interviews",
-      "Surveys",
-      "Personas",
-      "Competitor Audits",
-      "User Journey Maps",
-      "Empathy Maps",
-      "User Stories",
-      "Usability Testing",
-      "A/B Testing",
-      "Mind Mapping",
-      "User Flows",
-      "Information Architecture"
+    "eCommerce": [
+      "Shopee Store Management",
+      "Product Listing",
+      "Livestream Selling",
+      "Online Sales"
+    ],
+    "marketing": [
+      "Content Creation",
+      "Video Editing"
+    ],
+    "languages": [
+      "English (Conversational – currently preparing for IELTS)",
+      "Mandarin Chinese (Basic Communication)"
+    ],
+    "analyticalSkills": [
+      "Market Research",
+      "Trend Analysis",
+      "Customer Insights"
     ]
   },
   "toolbox": {
-    "title": "Design & Development Toolbox",
-    "subtitle": "A comprehensive suite of tools that I use to design, prototype, and bring ideas to life",
+    "title": "Digital Tools & Platforms",
+    "subtitle": "Tools and platforms I use for e-commerce, content creation, and sales",
     "tools": [
-      { "name": "Figma", "icon": "figma" },
-      { "name": "Framer", "icon": "framer" },
-      { "name": "Webflow", "icon": "webflow" },
-      { "name": "Shopify", "icon": "shopify" },
-      { "name": "Notion", "icon": "notion" },
-      { "name": "Adobe XD", "icon": "xd" },
-      { "name": "TypeScript", "icon": "typescript" },
-      { "name": "React", "icon": "react" },
-      { "name": "Tailwind", "icon": "tailwind" },
-      { "name": "Next.js", "icon": "vscode" }
+      { "name": "CapCut", "icon": "capcut" },
+      { "name": "Shopee", "icon": "shopee" },
+      { "name": "Facebook", "icon": "facebook" },
+      { "name": "Canva", "icon": "canva" }
     ]
   },
   "portfolio": {
@@ -144,9 +134,9 @@
   },
   "footer": {
     "title": "Let's Stay Connected",
-    "description": "Interested in discussing design, sharing ideas, or exploring innovations in product design? Feel free to reach out—let's keep the conversation going.",
+    "description": "Interested in discussing sales opportunities, collaboration, or exploring e-commerce and online business? Feel free to reach out—let's connect.",
     "ctaText": "Contact Me",
-    "copyright": "© 2024 Gridbox. All rights reserved."
+    "copyright": "© 2025 Thái Thị Thuỳ Duyên. All rights reserved."
   },
   "common": {
     "switchToEnglish": "Switch to English",
@@ -154,12 +144,15 @@
     "getInTouch": "Get in Touch",
     "sections": {
       "workHistory": "Work History",
-      "education": "Education & Courses",
+      "education": "Education",
       "skillsTools": "Skills & Tools",
       "skills": "Skills",
       "tools": "Tools",
-      "product": "Product",
-      "uxDesign": "UX Design"
+      "digitalTools": "Digital Tools",
+      "eCommerce": "E-Commerce",
+      "marketing": "Marketing",
+      "languages": "Languages",
+      "analyticalSkills": "Analytical Skills"
     }
   }
 }

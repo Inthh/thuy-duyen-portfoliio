@@ -14,7 +14,7 @@ export function MyJourney() {
   return (
     <SectionWrapper id="journey" className="py-16 md:py-24 bg-[var(--color-bg-secondary)]/40">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-[250px_1fr] lg:grid-cols-[314px_1fr] gap-12 md:gap-16">
+        <div className="grid md:grid-cols-[210px_1fr] gap-12 md:gap-16">
           {/* Left column: Title + Image */}
           <div>
             <motion.h2

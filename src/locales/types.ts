@@ -11,6 +11,11 @@ export interface HeroRecommendation {
 export interface Hero {
   badges: string[];
   name: string;
+  position?: string;
+  location?: string;
+  email?: string;
+  phone?: string;
+  dob?: string;
   bio: string;
   ctaText: string;
   recommendation: HeroRecommendation;
@@ -44,8 +49,7 @@ export interface EducationItem {
 }
 
 export interface Skills {
-  product: string[];
-  uxDesign: string[];
+  [key: string]: string[];
 }
 
 export interface ToolItem {
@@ -87,8 +91,7 @@ export interface Sections {
   skillsTools: string;
   skills: string;
   tools: string;
-  product: string;
-  uxDesign: string;
+  [key: string]: string;
 }
 
 export interface Common {
