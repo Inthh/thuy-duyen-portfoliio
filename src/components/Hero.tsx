@@ -17,6 +17,9 @@ import {
   floatUp,
 } from "@/lib/animations";
 
+const AVATAR_SLIDES = ["/avatar.jpg", "/avatar_1.jpg"];
+const AVATAR_SLIDE_INTERVAL = 3000; // 3 seconds
+
 const TYPING_DELAY = 85;
 const ERASING_DELAY = 50;
 const PAUSE_AFTER_TYPING = 2400;
@@ -25,8 +28,6 @@ const PAUSE_AFTER_ERASING = 600;
 function TypingTitle({ text }: { text: string }) {
   const [displayed, setDisplayed] = useState("");
   const [phase, setPhase] = useState<"typing" | "pause" | "erasing">("typing");
-
-  if (!text) return <span>{text}</span>;
 
   useEffect(() => {
     if (!text) return;
@@ -59,6 +60,8 @@ function TypingTitle({ text }: { text: string }) {
     }
   }, [displayed, phase, text]);
 
+  if (!text) return <span>{text}</span>;
+
   return (
     <span>
       {displayed}
@@ -73,6 +76,15 @@ function TypingTitle({ text }: { text: string }) {
 export function Hero() {
   const { translations } = useLocale();
   const hero = translations.hero;
+  const [avatarIndex, setAvatarIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(
+      () => setAvatarIndex((i) => (i + 1) % AVATAR_SLIDES.length),
+      AVATAR_SLIDE_INTERVAL,
+    );
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <section
@@ -82,11 +94,14 @@ export function Hero() {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Floating recommendation card - left */}
         {hero.recommendation.name || hero.recommendation.text ? (
-        <motion.div
+        <motion.a
+          href="https://chat.zalo.me/"
+          target="_blank"
+          rel="noopener noreferrer"
           initial={{ opacity: 0, x: -48 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ ...springSmooth, delay: 0.6 }}
-          className="hidden lg:flex absolute left-[8%] top-[35%] items-center gap-3 bg-[var(--color-card-alt)] rounded-2xl shadow-lg border border-[var(--color-border)] p-4 w-[220px]"
+          className="hidden lg:flex absolute left-[8%] top-[35%] items-center gap-3 bg-[var(--color-card-alt)] rounded-2xl shadow-lg border border-[var(--color-border)] p-4 w-[220px] cursor-pointer hover:shadow-xl transition-shadow"
         >
           <motion.div
             animate={floatUp.animate}
@@ -102,7 +117,7 @@ export function Hero() {
             </p>
           </div>
           <HiArrowRight className="w-4 h-4 text-[var(--color-text-muted)] shrink-0" />
-        </motion.div>
+        </motion.a>
         ) : null}
 
         {/* Avatar */}
@@ -117,13 +132,23 @@ export function Hero() {
             transition={springGentle}
             className="avatar-glow relative w-68 h-68 sm:w-76 sm:h-76 md:w-92 md:h-92 rounded-full overflow-hidden border-4 border-[var(--color-bg-secondary)] bg-[var(--color-bg-secondary)]/50 transition-shadow duration-300"
           >
-            <Image
-              src="https://api.dicebear.com/7.x/avataaars/png?seed=portfolio&size=288"
-              alt={hero.name}
-              fill
-              className="object-cover"
-              priority
-            />
+            {AVATAR_SLIDES.map((src, i) => (
+              <motion.div
+                key={src}
+                initial={false}
+                animate={{ opacity: i === avatarIndex ? 1 : 0 }}
+                transition={{ duration: 0.6 }}
+                className="absolute inset-0"
+              >
+                <Image
+                  src={src}
+                  alt={hero.name}
+                  fill
+                  className="object-cover"
+                  priority={i === 0}
+                />
+              </motion.div>
+            ))}
           </motion.div>
         </motion.div>
 
@@ -208,11 +233,14 @@ export function Hero() {
 
         {/* Floating recommendation card - right */}
         {hero.recommendation.name || hero.recommendation.text ? (
-        <motion.div
+        <motion.a
+          href="https://vn.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
           initial={{ opacity: 0, x: 48 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ ...springSmooth, delay: 0.7 }}
-          className="hidden lg:flex absolute right-[8%] top-[28%] items-center gap-3 bg-[var(--color-card-alt)] rounded-2xl shadow-lg border border-[var(--color-border)] p-4 w-[220px]"
+          className="hidden lg:flex absolute right-[8%] top-[28%] items-center gap-3 bg-[var(--color-card-alt)] rounded-2xl shadow-lg border border-[var(--color-border)] p-4 w-[220px] cursor-pointer hover:shadow-xl transition-shadow"
         >
           <motion.div
             animate={{ y: [0, 8, 0] }}
@@ -228,7 +256,7 @@ export function Hero() {
             </p>
           </div>
           <HiArrowRight className="w-4 h-4 text-[var(--color-text-muted)] flex-shrink-0" />
-        </motion.div>
+        </motion.a>
         ) : null}
       </div>
     </section>
