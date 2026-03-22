@@ -1,23 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  /* Semantic colors – light mode */
-  --color-bg: #FFF6F6;
-  --color-bg-secondary: #FFB2B2;
+  /* Semantic colors – light mode (blue #2FA4D7) */
+  --color-bg: #F0FAFF;
+  --color-bg-secondary: #A8D8F0;
   --color-text: #1E4D6B;
   --color-text-muted: #2D6B8F;
-  --color-accent: #FE9EC7;
-  --color-accent-hover: #FC8AB8;
+  --color-accent: #2FA4D7;
+  --color-accent-hover: #2693C4;
   --color-border: rgba(30, 77, 107, 0.2);
   --color-border-strong: rgba(30, 77, 107, 0.35);
   --color-card: rgba(255, 255, 255, 0.95);
-  --color-card-alt: rgba(255, 178, 178, 0.9);
+  --color-card-alt: rgba(168, 216, 240, 0.9);
   --color-badge-bg: rgba(249, 246, 196, 0.9);
   --color-shadow: rgba(30, 77, 107, 0.12);
-  --color-shadow-accent: rgba(254, 158, 199, 0.25);
+  --color-shadow-accent: rgba(47, 164, 215, 0.25);
   /* Legacy / specific */
-  --color-button: #FE9EC7;
-  --color-button-hover: #FC8AB8;
+  --color-button: #2FA4D7;
+  --color-button-hover: #2693C4;
   --color-pattern: rgba(30, 77, 107, 0.08);
 }
 
@@ -26,17 +26,17 @@
   --color-bg-secondary: #1e293b;
   --color-text: #f1f5f9;
   --color-text-muted: #94a3b8;
-  --color-accent: #f472b6;
-  --color-accent-hover: #ec4899;
+  --color-accent: #2FA4D7;
+  --color-accent-hover: #4BB4E7;
   --color-border: rgba(148, 163, 184, 0.2);
   --color-border-strong: rgba(148, 163, 184, 0.35);
   --color-card: rgba(30, 41, 59, 0.9);
   --color-card-alt: rgba(51, 65, 85, 0.8);
   --color-badge-bg: rgba(51, 65, 85, 0.9);
   --color-shadow: rgba(0, 0, 0, 0.3);
-  --color-shadow-accent: rgba(244, 114, 182, 0.3);
-  --color-button: #f472b6;
-  --color-button-hover: #ec4899;
+  --color-shadow-accent: rgba(47, 164, 215, 0.3);
+  --color-button: #2FA4D7;
+  --color-button-hover: #4BB4E7;
   --color-pattern: rgba(148, 163, 184, 0.12);
 }
 
@@ -45,14 +45,14 @@
   0%,
   100% {
     box-shadow:
-      0 0 10px rgba(254, 158, 199, 0.12),
+      0 0 10px rgba(47, 164, 215, 0.12),
       0 0 14px rgba(137, 212, 255, 0.1),
       0 0 18px rgba(249, 246, 196, 0.1),
       0 2px 6px rgba(30, 77, 107, 0.06);
   }
   50% {
     box-shadow:
-      0 0 16px rgba(254, 158, 199, 0.2),
+      0 0 16px rgba(47, 164, 215, 0.2),
       0 0 22px rgba(137, 212, 255, 0.14),
       0 0 26px rgba(249, 246, 196, 0.14),
       0 2px 10px rgba(30, 77, 107, 0.08);
@@ -67,14 +67,14 @@
   0%,
   100% {
     box-shadow:
-      0 0 10px rgba(244, 114, 182, 0.15),
-      0 0 18px rgba(244, 114, 182, 0.08),
+      0 0 10px rgba(47, 164, 215, 0.15),
+      0 0 18px rgba(47, 164, 215, 0.08),
       0 2px 6px rgba(0, 0, 0, 0.2);
   }
   50% {
     box-shadow:
-      0 0 16px rgba(244, 114, 182, 0.25),
-      0 0 24px rgba(244, 114, 182, 0.12),
+      0 0 16px rgba(47, 164, 215, 0.25),
+      0 0 24px rgba(47, 164, 215, 0.12),
       0 2px 10px rgba(0, 0, 0, 0.25);
   }
 }
@@ -90,7 +90,7 @@
 .badge-glow:hover {
   animation: none;
   box-shadow:
-    0 0 20px rgba(254, 158, 199, 0.3),
+    0 0 20px rgba(47, 164, 215, 0.3),
     0 0 28px rgba(137, 212, 255, 0.2),
     0 0 32px rgba(249, 246, 196, 0.18),
     0 4px 12px rgba(30, 77, 107, 0.1);
@@ -98,8 +98,8 @@
 
 .dark .badge-glow:hover {
   box-shadow:
-    0 0 24px rgba(244, 114, 182, 0.35),
-    0 0 36px rgba(244, 114, 182, 0.2),
+    0 0 24px rgba(47, 164, 215, 0.35),
+    0 0 36px rgba(47, 164, 215, 0.2),
     0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -108,16 +108,16 @@
   0%,
   100% {
     box-shadow:
-      0 0 24px rgba(254, 158, 199, 0.4),
-      0 0 48px rgba(254, 158, 199, 0.25),
-      0 0 80px rgba(254, 158, 199, 0.15),
+      0 0 24px rgba(47, 164, 215, 0.4),
+      0 0 48px rgba(47, 164, 215, 0.25),
+      0 0 80px rgba(47, 164, 215, 0.15),
       0 8px 32px rgba(30, 77, 107, 0.12);
   }
   50% {
     box-shadow:
-      0 0 32px rgba(254, 158, 199, 0.5),
-      0 0 64px rgba(254, 158, 199, 0.3),
-      0 0 100px rgba(254, 158, 199, 0.2),
+      0 0 32px rgba(47, 164, 215, 0.5),
+      0 0 64px rgba(47, 164, 215, 0.3),
+      0 0 100px rgba(47, 164, 215, 0.2),
       0 8px 36px rgba(30, 77, 107, 0.14);
   }
 }
@@ -131,13 +131,13 @@
   100% {
     box-shadow:
       0 0 20px var(--color-shadow-accent),
-      0 0 40px rgba(244, 114, 182, 0.15),
+      0 0 40px rgba(47, 164, 215, 0.15),
       0 8px 32px rgba(0, 0, 0, 0.3);
   }
   50% {
     box-shadow:
       0 0 28px var(--color-shadow-accent),
-      0 0 56px rgba(244, 114, 182, 0.22),
+      0 0 56px rgba(47, 164, 215, 0.22),
       0 8px 36px rgba(0, 0, 0, 0.35);
   }
 }
@@ -149,16 +149,16 @@
 .avatar-glow:hover {
   animation: none;
   box-shadow:
-    0 0 36px rgba(254, 158, 199, 0.5),
-    0 0 72px rgba(254, 158, 199, 0.35),
-    0 0 120px rgba(254, 158, 199, 0.2),
+    0 0 36px rgba(47, 164, 215, 0.5),
+    0 0 72px rgba(47, 164, 215, 0.35),
+    0 0 120px rgba(47, 164, 215, 0.2),
     0 12px 40px rgba(30, 77, 107, 0.15);
 }
 
 .dark .avatar-glow:hover {
   box-shadow:
     0 0 36px var(--color-shadow-accent),
-    0 0 72px rgba(244, 114, 182, 0.25),
+    0 0 72px rgba(47, 164, 215, 0.25),
     0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
